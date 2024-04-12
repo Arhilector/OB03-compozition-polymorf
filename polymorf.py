@@ -22,10 +22,16 @@ class Cat(Animal):
 
 class Cow(Animal):
     def make_sound(self):
-        print("Му")
+        print("Муу")
+
+
+
+
 
 
 animals = [Dog(), Cat(), Cow()]
-for animal in animals:
-    animal.make_sound()
+for i in animals:
+    i.make_sound()
+
+
 
